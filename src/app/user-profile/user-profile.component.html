@@ -1,1 +1,7 @@
-<p>user-profile works!</p>
+<p>user-profile is here</p>
+
+<img [src]="user.image" />
+<h2>Hello {{ user.name }}</h2>
+<p>âge : {{ user.age }}</p>
+<p>Citation : {{ user.quote }}</p>
+<input [(ngModel)]="user.quote" />
